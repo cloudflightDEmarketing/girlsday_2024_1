@@ -32,7 +32,7 @@ export class Scene {
         this._isLevel = isLevel;
         this._imageManager = new ImageManager();
         this._soundManager = new SoundManager();
-        this._fontColor = SceneFontColor.DARK;
+        this._fontColor = SceneFontColor.LIGHT;
         SceneRegistry.set(name, this);
         this._createEntities = () => undefined;
     }

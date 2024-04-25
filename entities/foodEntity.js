@@ -15,7 +15,7 @@ const FoodTypes = Object.freeze({
     CUPCAKE: {
         name: 'cupcake',
         value: 1,
-        weight: 3 // TODO TASK - try changing the weight of a cupcake to see how it affects the game
+        weight: 5 // TODO TASK - try changing the weight of a cupcake to see how it affects the game
     },
     FRUIT: {
         name: 'fruit',
@@ -26,7 +26,12 @@ const FoodTypes = Object.freeze({
         name: 'star',
         value: 10,
         weight: 7
-    }
+    },
+    BANANE: {
+        name: 'banane',
+        value: 1,
+        weight: 3
+    },
 });
 
 /**
@@ -45,7 +50,7 @@ export class FoodFactory {
          *  Come up with a rule on how to spawn different food types, e.g. randomly selecting one or spawning one every n items / seconds.
          *  Then implement that rule.
          */
-        const foodType = FoodTypes.CUPCAKE;
+        const foodType = FoodTypes.BANANE;
 
         return new Entity(EntityTypes.FOOD)
             .addComponent(new ConsumableComponent(foodType.value))
