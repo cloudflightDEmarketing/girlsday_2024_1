@@ -24,9 +24,9 @@ const defineCupcakeWorld = () => {
      *  You can try switching assets by changing the urls, but make sure to not change the ids! :)
      */
     cupcakeWorld.imageManager.addBackground('images/background_jungle.jpg');
-    cupcakeWorld.imageManager.addImage('tile_left', 'images/smallisland.png');
-    cupcakeWorld.imageManager.addImage('tile_mid', 'images/smallisland.png');
-    cupcakeWorld.imageManager.addImage('tile_right', 'images/smallisland.png');
+    cupcakeWorld.imageManager.addImage('tile_left', 'images/Smallisland.png');
+    cupcakeWorld.imageManager.addImage('tile_mid', 'images/Smallisland.png');
+    cupcakeWorld.imageManager.addImage('tile_right', 'images/Smallisland.png');
     cupcakeWorld.imageManager.addImage('cupcake', 'images/cupcake.png');
     cupcakeWorld.imageManager.addImage('banane', 'images/Banana.png');
     cupcakeWorld.imageManager.addImage('player_default', 'images/monkey_idle.png');
